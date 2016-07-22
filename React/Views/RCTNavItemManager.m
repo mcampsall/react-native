@@ -21,6 +21,10 @@ RCT_EXPORT_MODULE()
   return [RCTNavItem new];
 }
 
+//added to be able to hide tabbar:
+RCT_EXPORT_VIEW_PROPERTY(showTabBar, BOOL)
+//
+
 RCT_EXPORT_VIEW_PROPERTY(navigationBarHidden, BOOL)
 RCT_EXPORT_VIEW_PROPERTY(shadowHidden, BOOL)
 RCT_EXPORT_VIEW_PROPERTY(tintColor, UIColor)
