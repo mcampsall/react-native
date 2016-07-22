@@ -385,7 +385,7 @@ RCT_NOT_IMPLEMENTED(- (instancetype)initWithCoder:(NSCoder *)aDecoder)
                     animated:(__unused BOOL)animated
 {
 
-  //added to hide tabbar
+  //added to be able to hide tabbar:
   RCTWrapperViewController *thisController = (RCTWrapperViewController *)viewController;
   navigationController.tabBarController.tabBar.hidden = !thisController.navItem.showTabBar;
   //
