@@ -13,6 +13,10 @@
 
 @interface RCTNavItem : UIView
 
+//added to be able to hide tabbar:
+@property (nonatomic, assign) BOOL showTabBar;
+//
+
 @property (nonatomic, copy) NSString *title;
 @property (nonatomic, strong) UIImage *titleImage;
 @property (nonatomic, strong) UIImage *leftButtonIcon;
