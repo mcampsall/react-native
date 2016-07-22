@@ -26,6 +26,14 @@ var TabBarIOS = React.createClass({
 
   propTypes: {
     ...View.propTypes,
+    
+    /** adding to be able to hid tab bar
+     */
+    showTabBar: React.PropTypes.bool,
+    
+    
+    /** original props types below*/
+    
     style: View.propTypes.style,
     /**
      * Color of text on unselected tabs
